@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -103,15 +103,25 @@
             <h2 class="titulo-footer">Contactanos</h2>
             <h3 class="subtitulo-footer">Lo apreciariamos mucho mucho</h3>
             <div class="footer">
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSddutVqiflkNDoSfziv915imZjb75yKsJxZiHWlgCNfsH66qw/formResponse">
+               <!-- <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSddutVqiflkNDoSfziv915imZjb75yKsJxZiHWlgCNfsH66qw/formResponse">
                     <input type="text" name="entry.1051563764" id="" placeholder="Nombre">
                     <input type="email" name="" id="" placeholder="Email">
                     <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese su mensaje..."></textarea>
                     <input type="submit" value="Enviar">
-                </form>
+                </form> -->
+                <form action="FORM_RESPONSE_URL" method="POST">
+                    <input class="form__input" type="text" required name="NAME_INPUT" placeholder="Tu nombre (sin apellidos)"/>
+                    <input class="form__input" type="email" required name="emailAddress" placeholder="Tu correo electrónico"/>
+                    <small class="form__legal">
+                        Al hacer clic en el siguiente botón, acepta nuestros términos y condiciones de uso. 
+                        Conozca cómo recopilamos, usamos y compartimos sus datos en nuestra <a target="_blank" href="politica-privacidad.txt">política de privacidad.</a>
+                    </small>
+                    <button class="form__button" type="submit">CALL_TO_ACTION</button>
+                  </form>
             </div>
         </div>
     </footer>
+    <script src="main.js"></script>
 </body>
 
 </html>
