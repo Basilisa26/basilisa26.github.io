@@ -7,7 +7,6 @@
 body {
     font-family: 'open sans';
     font-size: 16px;
-    overflow-x: hidden;  /* nueva linea de codigo-----------------------------------------------------*/
 }
 /* No olvides suscribirte a AlexCG Design */
 /* Header */
@@ -118,7 +117,7 @@ header .boton {
 }
 
 .galeria {
-    width: 100%;    
+    width: 100%;
     height: 500px;
     overflow: hidden;
     display: flex;
