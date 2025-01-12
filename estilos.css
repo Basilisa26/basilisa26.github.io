@@ -8,11 +8,17 @@ body {
     font-family: 'open sans';
     font-size: 16px;
 }
-/* No olvides suscribirte a AlexCG Design */
-/* Header */
-
-header {
-    width: 100%;
+/* No olvides suscribirte a AlexCG Design
+    height: 900px;
+    position: relative;
+    background-image: url(fondo.png);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+    text-align: center;
+*/
+/*     width: 100%;
     height: 325px;
     background-image: url(Skewed.png);
     background-attachment: fixed;
@@ -21,7 +27,17 @@ header {
     position: relative;
     overflow: hidden;
     color: black;
-    text-align: center;*/
+    text-align: center;*/ 
+
+header {
+    height: 900px;
+    position: relative;
+    background-image: url(Skewed.png);
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+    text-align: center;
 }
 
 header .textos {
