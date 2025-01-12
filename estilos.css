@@ -30,13 +30,14 @@ body {
     text-align: center;*/ 
 
 header {
-    height: 600px;
-    position: relative;
+    height: 680px;
     background-image: url(Skewed.png);
-    overflow: hidden;
     background-attachment: fixed;
     background-position: center;
-    padding-top: 130px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: black;
     text-align: center;
 }
 
